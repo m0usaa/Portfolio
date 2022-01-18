@@ -1,0 +1,256 @@
+*{
+  margin: 0; 
+  padding: 0;
+}
+
+body{
+  background-color: #44585f;
+}
+
+main{
+  width: 960px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+  width: 960px;
+  height: 100px;
+}
+
+header img{
+    margin-top: 12px;
+    margin-left: 50px;
+}
+
+nav{
+  width: 940px;
+  height: 50px;
+  margin-left: 10px;
+  background-image: linear-gradient(#536870, #2b393e);
+}
+
+
+nav ul{
+  list-style: none;
+}
+
+
+nav ul li{
+  float: left;
+}
+
+nav ul li a{
+  display: block;
+  /* عشان نعرف ندي طول وعرض */
+  width: 116.5px;
+  height: 50px;
+  color: #6B888E;
+  text-decoration: none;
+  border-right: solid 1px #4b6f7c ;
+  text-align: center;
+  line-height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li a:hover{
+  color: white;
+  background-image: linear-gradient(#2b393e,#536870);
+}
+
+.slide{
+  margin-top: 5px;
+  width: 960px;
+  height: 262px;
+}
+
+.slide img{
+  width: 951px;
+}
+
+.services{
+  display: flex;
+  width: 937.5px;
+  height: 290px;
+  margin-left: 12px;
+  margin-top: 5px;
+  background-image: linear-gradient(#536870, #44585f);
+}
+
+.left-sev{
+  float: left;
+  width: 471px;
+  height: 280px;
+  position:relative;
+  /* يعني نسبي; */
+}
+
+.right-sev{
+  float: right;
+  width: 471px;
+  height: 280px;
+  position:relative;
+}
+
+.left-sev h3{
+  position: absolute; 
+  top: 20px; left: 42px;
+  color: #9DC11F;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.left-sev .p1{
+  position: absolute; 
+  top: 50px; left: 50px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+
+}
+
+.left-sev .p2{
+  position: absolute; 
+  top: 170px; left: 50px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+
+}
+
+.right-sev h3{
+  position: absolute; 
+  top: 20px; left: 42px;
+  color: #9DC11F;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.right-sev .p1{
+  position: absolute; 
+  top: 50px; left: 50px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  width: 240px;
+
+}
+
+.right-sev ul{
+  position: absolute; 
+  top: 150px; left: 85px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  list-style: none;
+}
+
+.right-sev ul li{
+  background-image: url(images/check.png);
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  line-height: 20px;
+  margin-bottom: 7px;
+}
+
+.img1{
+  position: absolute;
+  top: 10px;
+  right: -14px;
+}
+
+.img2{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.sepa{
+  position: absolute;
+  /* لانها child */
+  right: -20px;
+  top: 70px;
+}
+.h-sep{
+  width: 699px; 
+  height: 2px; 
+  background-image: url(images/H-Separator.png); 
+  margin: 10px auto;
+}
+.offers{
+  width: 938.5px;
+  height: 200px;
+  margin-left: 12px;
+  background-image: linear-gradient(#44585f,#536870);
+  position: relative;
+}
+
+.offers h3{
+  position: absolute; 
+  top: 20px; left: 42px;
+  color: #9DC11F;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.offers p{
+  position: absolute; 
+  margin: 50px 50px;
+  /* top: 50px; left: 50px; */
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  
+  
+}
+
+.offers img{
+  position: absolute;
+  top: 140px;
+  right: 20px;
+}
+
+footer{
+  width: 940px;
+  height: 60px;
+  margin-left: 12px;
+  padding-top: 15px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer span{
+  color: #9DC11F;
+  font-weight: bold;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer ul li{
+  float: left;
+  padding: 0 10px 0 10px;
+  border-right: solid 1px white;
+}
+
+footer ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+footer ul li a:hover{
+  color: #9DC11F;
+  text-decoration: underline;
+}
+.pri{
+  color: white;
+}
+.pri:hover{
+  color: #9DC11F;
+  text-decoration: underline;
+}
